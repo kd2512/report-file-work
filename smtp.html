@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - SMTP</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>SMTP Protocol</h2>
+			<p>
+				SMTP (Simple Mail Transfer Protocol) is a protocol used for
+				sending and receiving emails. It operates over the TCP/IP
+				protocol suite and is responsible for the transmission of
+				electronic mail between mail servers.
+			</p>
+
+			<h3>Key Features of SMTP</h3>
+			<ul>
+				<li>
+					Text-based protocol for communication between mail servers.
+				</li>
+				<li>Uses port 25 for communication.</li>
+				<li>
+					Relies on other protocols like POP3 and IMAP for email
+					retrieval by clients.
+				</li>
+			</ul>
+
+			<h3>SMTP Commands</h3>
+			<p>
+				SMTP uses various commands for communication between the email
+				client and server. Some common commands include:
+			</p>
+			<table>
+				<tr>
+					<th>Command</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>EHLO</td>
+					<td>
+						Identifies the sending server to the receiving server.
+					</td>
+				</tr>
+				<tr>
+					<td>MAIL FROM</td>
+					<td>Specifies the sender's email address.</td>
+				</tr>
+				<tr>
+					<td>RCPT TO</td>
+					<td>Specifies the recipient's email address.</td>
+				</tr>
+				<tr>
+					<td>DATA</td>
+					<td>Indicates the start of the actual message data.</td>
+				</tr>
+				<!-- Add more rows as needed -->
+			</table>
+
+			<div class="img-container">
+				<img
+					style="object-fit: contain"
+					src="./smtp.png"
+					alt="SMTP Protocol illustration"
+					width="800"
+					height="250"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>

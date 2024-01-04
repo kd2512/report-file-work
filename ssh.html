@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - SSH</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>SSH Protocol</h2>
+			<p>
+				Secure Shell (SSH) is a cryptographic network protocol that
+				provides a secure way to access and manage network devices and
+				servers remotely. It ensures encrypted communication between the
+				client and the server, preventing unauthorized access and
+				protecting data integrity.
+			</p>
+
+			<h3>Key Features of SSH</h3>
+			<ul>
+				<li>
+					Authentication: SSH uses public-key cryptography and
+					passwords for user authentication.
+				</li>
+				<li>
+					Encryption: All data transmitted between the client and
+					server is encrypted, ensuring privacy and security.
+				</li>
+				<li>
+					Secure File Transfer: SSH supports secure file transfer
+					through protocols like SCP (Secure Copy Protocol) and SFTP
+					(SSH File Transfer Protocol).
+				</li>
+			</ul>
+
+			<h3>SSH Commands</h3>
+			<p>Common SSH commands include:</p>
+			<pre>
+            <code>
+                ssh user@hostname     # Connect to a remote server
+                scp file.txt user@hostname:/path   # Securely copy a file to a remote server
+                ssh-keygen            # Generate SSH key pair
+            </code>
+        </pre>
+
+			<br />
+			<div class="img-container">
+				<img
+					style="object-fit: contain"
+					src="./sshImg.png"
+					alt="HTTP Protocol illustration"
+					width="800"
+					height="250"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>

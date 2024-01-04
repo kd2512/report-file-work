@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - DNS</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>DNS Protocol</h2>
+			<p>
+				The Domain Name System (DNS) is a crucial protocol that
+				translates human-readable domain names into IP addresses,
+				allowing users to access websites using familiar names instead
+				of numeric IP addresses.
+			</p>
+
+			<h3>How DNS Works</h3>
+			<p>
+				When you enter a domain name in your web browser, the DNS system
+				is responsible for:
+			</p>
+			<ol>
+				<li>Resolving the domain name to an IP address.</li>
+				<li>Locating the server associated with that IP address.</li>
+				<li>
+					Initiating a connection to the server to retrieve the
+					requested web page.
+				</li>
+			</ol>
+
+			<h3>DNS Components</h3>
+			<ul>
+				<li>
+					<strong>Resolver:</strong> The client-side component that
+					initiates DNS queries.
+				</li>
+				<li>
+					<strong>Authoritative DNS Server:</strong> The server that
+					holds the definitive information about a domain.
+				</li>
+				<li>
+					<strong>Root DNS Server:</strong> The top-level server in
+					the DNS hierarchy.
+				</li>
+			</ul>
+
+			<div class="img-container">
+				<img
+					style="object-fit: contain"
+					src="./dnsWork.gif"
+					alt="HTTP Protocol illustration"
+					width="800"
+					height="400"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>

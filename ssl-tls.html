@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - SSL/TLS</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>SSL/TLS Protocols</h2>
+			<p>
+				SSL (Secure Sockets Layer) and its successor TLS (Transport
+				Layer Security) are cryptographic protocols designed to provide
+				secure communication over a computer network. They are commonly
+				used to secure data transfer between a web browser and a server,
+				ensuring the confidentiality and integrity of the exchanged
+				information.
+			</p>
+
+			<h3>Key Features of SSL/TLS</h3>
+			<ul>
+				<li>
+					Encrypts data to protect it from unauthorized access during
+					transmission.
+				</li>
+				<li>
+					Provides secure authentication of the server and,
+					optionally, the client.
+				</li>
+				<li>Ensures the integrity of the data being exchanged.</li>
+				<li>
+					Supports various cryptographic algorithms for encryption and
+					authentication.
+				</li>
+			</ul>
+
+			<h3>SSL/TLS Handshake</h3>
+			<p>The SSL/TLS handshake involves the following steps:</p>
+			<ol>
+				<li>
+					ClientHello: The client initiates the connection by sending
+					a hello message.
+				</li>
+				<li>
+					ServerHello: The server responds with its own hello message,
+					and they agree on cryptographic parameters.
+				</li>
+				<li>
+					Key Exchange: The client and server exchange cryptographic
+					keys to establish a secure connection.
+				</li>
+				<li>
+					Finished: Both parties confirm that the handshake is
+					complete, and secure communication begins.
+				</li>
+			</ol>
+
+			<br />
+			<div class="img-container">
+				<img
+					src="./ssl-tls-img.png"
+					alt="HTTP Protocol illustration"
+					width="500"
+					height="350"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>

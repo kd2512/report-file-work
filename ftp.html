@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - FTP</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>FTP Protocol</h2>
+			<p>
+				FTP (File Transfer Protocol) is a standard network protocol used
+				to transfer files between a client and a server on a computer
+				network. It operates on the application layer of the OSI model
+				and is widely used for sharing and accessing files over the
+				Internet.
+			</p>
+
+			<h3>Key Features of FTP</h3>
+			<ul>
+				<li>
+					Uses two separate channels for communication: the command
+					channel and the data channel.
+				</li>
+				<li>
+					Supports various file transfer modes, including ASCII and
+					binary.
+				</li>
+				<li>
+					Authentication can be done with a username and password.
+				</li>
+			</ul>
+
+			<h3>FTP Commands</h3>
+			<p>
+				FTP uses a set of commands for communication between the client
+				and server. Some common commands include:
+			</p>
+			<table>
+				<tr>
+					<th>Command</th>
+					<th>Description</th>
+				</tr>
+				<tr>
+					<td>USER</td>
+					<td>Specifies the username for authentication.</td>
+				</tr>
+				<tr>
+					<td>PASS</td>
+					<td>Specifies the password for authentication.</td>
+				</tr>
+				<tr>
+					<td>LIST</td>
+					<td>
+						Requests a list of files in the current directory on the
+						server.
+					</td>
+				</tr>
+				<tr>
+					<td>GET</td>
+					<td>Retrieves a file from the server to the client.</td>
+				</tr>
+				<!-- Add more rows as needed -->
+			</table>
+			<br />
+			<div class="img-container">
+				<img
+					style="object-fit: contain"
+					src="./ftpImg.jpg"
+					alt="HTTP Protocol illustration"
+					width="800"
+					height="250"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>

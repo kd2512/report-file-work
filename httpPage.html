@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<title>Internet and Protocols - HTTP</title>
+	</head>
+
+	<body id="bg-img">
+		<header>
+			<h1>Welcome to the World of Internet and Protocols</h1>
+		</header>
+
+		<nav style="text-align: center">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="introduction.html">Introduction</a></li>
+				<li><a href="tcp-ip.html">TCP/IP</a></li>
+				<li><a href="httpPage.html">HTTP</a></li>
+				<li><a href="dns.html">DNS</a></li>
+				<li><a href="smtp.html">SMTP</a></li>
+				<li><a href="ftp.html">FTP</a></li>
+				<li><a href="dhcp.html">DHCP</a></li>
+				<li><a href="ssl-tls.html">SSL/TLS</a></li>
+				<li><a href="ipv6.html">IPv6</a></li>
+				<li><a href="ssh.html">SSH</a></li>
+			</ul>
+		</nav>
+
+		<section style="padding: 1rem">
+			<h2>HTTP Protocol</h2>
+			<p>
+				HTTP is a protocol for fetching resources such as HTML
+				documents. It is the foundation of any data exchange on the Web
+				and it is a client-server protocol, which means requests are
+				initiated by the recipient, usually the Web browser. A complete
+				document is reconstructed from the different sub-documents
+				fetched, for instance, text, layout description, images, videos,
+				scripts, and more.
+				<br />
+				<br />
+				HTTP is a client-server protocol: requests are sent by one
+				entity, the user-agent (or a proxy on behalf of it). Most of the
+				time the user-agent is a Web browser, but it can be anything,
+				for example, a robot that crawls the Web to populate and
+				maintain a search engine index.
+			</p>
+
+			<h3>Common HTTP Status Codes :</h3>
+			<table>
+				<tr>
+					<th>Status Code</th>
+					<th>Meaning</th>
+				</tr>
+				<tr>
+					<td>200</td>
+					<td>OK - The request was successful.</td>
+				</tr>
+				<tr>
+					<td>404</td>
+					<td>
+						Not Found - The requested resource could not be found on
+						the server.
+					</td>
+				</tr>
+				<tr>
+					<td>500</td>
+					<td>
+						Internal Server Error - A generic error message returned
+						when an unexpected condition was encountered.
+					</td>
+				</tr>
+				<!-- Add more rows as needed -->
+			</table>
+
+			<div class="img-container">
+				<img
+					src="./httpImg.png"
+					alt="HTTP Protocol illustration"
+					width="800"
+					height="400"
+				/>
+			</div>
+		</section>
+
+		<footer>
+			<p id="footer-p">&copy; 2024 Internet and Protocols</p>
+		</footer>
+	</body>
+</html>
